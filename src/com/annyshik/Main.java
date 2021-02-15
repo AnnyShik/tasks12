@@ -22,7 +22,10 @@ public class Main {
         if (resp == 1) arrayPrinter = new FirstArrayPrinter();
         else if (resp == 2) arrayPrinter = new SecondArrayPrinter();
         else if (resp == 3) arrayPrinter = new ThirdArrayPrinter();
-
+//
+//        if (resp == 1) arrayPrinter = new FirstArrayPrinter();
+//        else if (resp == 2) arrayPrinter = new SecondArrayPrinter();
+//        else if (resp == 3) arrayPrinter = new ThirdArrayPrinter();
         int arrayContains = array.showArray();
 
         arrayPrinter.print(array);
